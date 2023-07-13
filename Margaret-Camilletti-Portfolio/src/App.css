@@ -10,8 +10,8 @@ body {
 
 img {
   border-radius: 100%;
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
 }
 
 a:link {
@@ -23,12 +23,14 @@ h1, h2, h3, h4, p {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 55px;
+  padding-bottom: 0;
+  margin-bottom: 10px;;
 }
 
 #home-link {
   margin-right: 100px;
-  margin-left: 50px;
+  margin-left: 100px;
 }
 
 .nav-links {
@@ -45,14 +47,27 @@ h1 {
 }
 
 #contact-link {
-  margin-right: 50px;
+  margin-right: 100px;
 }
 
 #subheading {
   margin-left: 50px;
-  padding-top: 100px;
+  padding-top: 120px;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 25px;
+}
+
+#homeH3 {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+#contact, #about, #projects, #resume {
+  margin-left: 100px;
+}
+
+footer {
+  background-color: #421212;
 }
