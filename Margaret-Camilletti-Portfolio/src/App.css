@@ -1,42 +1,58 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+:root { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+body {
+  background-color: #F5D7D8;
+  color: #421212;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img {
+  border-radius: 100%;
+  height: 300px;
+  width: 300px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+a:link {
+  color: #421212;
 }
 
-.card {
-  padding: 2em;
+h1, h2, h3, h4, p {
+  font-weight: normal;
 }
 
-.read-the-docs {
-  color: #888;
+h1 {
+  font-size: 40px;
+}
+
+#home-link {
+  margin-right: 100px;
+  margin-left: 50px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#home {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+#contact-link {
+  margin-right: 50px;
+}
+
+#subheading {
+  margin-left: 50px;
+  padding-top: 100px;
+}
+
+h3 {
+  font-size: 20px;
 }
