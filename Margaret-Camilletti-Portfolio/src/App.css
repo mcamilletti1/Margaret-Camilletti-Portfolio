@@ -87,7 +87,7 @@ p {
     flex-direction: column;
   }
   #subheading {
-    margin: 0;
+    margin-left: 0;
     padding-top: 1rem;
   }
 }
