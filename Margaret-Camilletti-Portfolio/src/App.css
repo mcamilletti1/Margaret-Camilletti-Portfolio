@@ -76,8 +76,9 @@ p {
   margin-top: 2rem; /* Use rem for spacing */
 }
 
-@media (max-width: 320px) {
+@media (max-width: 450px) {
   #home {
+    display: flex;
     flex-direction: column;
   }
 }
