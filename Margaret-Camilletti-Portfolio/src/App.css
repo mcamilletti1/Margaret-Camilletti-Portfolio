@@ -22,6 +22,8 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
 }
 
 /* Media query for devices with width greater than or equal to 768px */
