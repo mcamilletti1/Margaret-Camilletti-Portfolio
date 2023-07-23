@@ -72,7 +72,7 @@ p {
 
 #home {
   display: flex;
-  flex-direction: column; /* Change to column for mobile devices */
+  flex-direction: row; /* Change to column for mobile devices */
   margin-top: 2rem; /* Use rem for spacing */
 }
 
