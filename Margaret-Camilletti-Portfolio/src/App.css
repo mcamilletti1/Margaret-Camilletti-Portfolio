@@ -76,17 +76,22 @@ p {
   margin-top: 2rem; /* Use rem for spacing */
 }
 
+#subheading {
+  margin-left: 2rem; /* Use rem for spacing */
+  padding-top: 4rem; /* Use rem for spacing */
+}
+
 @media (max-width: 450px) {
   #home {
     display: flex;
     flex-direction: column;
   }
+  #subheading {
+    margin: 0;
+    padding-top: 1rem;
+  }
 }
 
-#subheading {
-  margin-left: 2rem; /* Use rem for spacing */
-  padding-top: 4rem; /* Use rem for spacing */
-}
 
 h3 {
   font-size: 1.5rem; /* Adjust font size for better readability */
