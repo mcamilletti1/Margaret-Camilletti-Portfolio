@@ -44,6 +44,7 @@ main {
   width: 250px;
   fill: #000000;
   fill-opacity: 0.1;
+  border: solid 4px white;
 }
 
 /* Use rem instead of em for font sizes */
@@ -69,7 +70,7 @@ p {
 .nav-links {
   display: flex;
   justify-content: space-between;
-  margin-top: 2rem; /* Use rem for spacing */
+  padding: 1rem; /* Use rem for spacing */
 }
 
 #home {
@@ -78,9 +79,8 @@ p {
   margin-top: 2rem; /* Use rem for spacing */
 }
 
-#subheading {
+.subheading {
   margin-left: 2rem; /* Use rem for spacing */
-  padding-top: 4rem; /* Use rem for spacing */
 }
 
 @media (max-width: 450px) {
@@ -88,7 +88,7 @@ p {
     display: flex;
     flex-direction: column;
   }
-  #subheading {
+  .subheading {
     margin-left: 0;
     padding-top: 1rem;
   }
@@ -131,3 +131,161 @@ footer {
 .project-link {
   text-align: center;
 }
+
+#home-link:hover {
+  color: #FE3B8D;
+  cursor: pointer;
+  background-color: white;
+  border: solid 1px #FE3B8D;
+  padding: 1em 1em 1em;
+  border-radius: 5px;
+}
+
+#contact-link:hover {
+  color: #80D7E3;
+  cursor: pointer;
+  background-color: white;
+  border: solid 1px #80D7E3;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+#about-link:hover {
+  color: #E5AAFD;
+  cursor: pointer;
+  background-color: white;
+  border: solid 1px #E5AAFD;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+#projects-link:hover{
+  color: #2585A5;
+  cursor: pointer;
+  background-color: white;
+  border: solid 1px #2585A5;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+#resume-link:hover {
+  color: #FE3B8D;
+  cursor: pointer;
+  background-color: white;
+  border: solid 1px #FE3B8D;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+.resume-links {
+  color: #2585A5;
+}
+
+#resume-links:hover {
+  color: #FE3B8D;
+  cursor: pointer;
+}
+
+#resume, #about-paragraph {
+  background-color: white;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+#about-paragraph {
+  padding-left: 1em;
+  padding-top: 1em;
+  border: solid 3px #E5AAFD;
+}
+
+.subheading {
+  background-color: #FE3B8D;
+  color: white;
+  padding: 1rem 1rem 0 1rem;
+  border-radius: 10px;
+  margin-top: 7rem;
+  position: relative;
+}
+
+#name {
+  padding-top: 0;
+  margin-top: 0.3em;
+  margin-bottom: 0.2em;
+}
+
+
+
+#home, #about, #resume, #projects, #contact {
+  margin-bottom: 4em;
+}
+
+#project-links {
+  background-color: white;
+  padding: 1em 1em 1em 1em;
+  border-radius: 10px;
+  border: solid 4px #E5AAFD;
+  text-align: center;
+}
+
+.subheading:after {
+  content: '';
+  position: absolute;
+  top: 0; /* Position the triangle at the top */
+  left: 0; /* Position the triangle at the left */
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-right-color: #FE3B8D; /* Use border-right-color for the triangle color */
+  border-bottom: 0;
+  margin-top: -20px; /* Adjust the margin for the triangle */
+  margin-left: -20px;
+  transform: rotate(55deg);
+}
+
+#home-link {
+  color: white;
+  cursor: pointer;
+  background-color: #FE3B8D;
+  padding: 1em 1em 1em;
+  border-radius: 5px;
+}
+
+#contact-link {
+  color: white;
+  cursor: pointer;
+  background-color: #80D7E3;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+#about-link {
+  color: white;
+  cursor: pointer;
+  background-color: #E5AAFD;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+#projects-link{
+  color: white;
+  cursor: pointer;
+  background-color: #2585A5;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+#resume-link {
+  color: white;
+  cursor: pointer;
+  background-color: #FE3B8D;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
