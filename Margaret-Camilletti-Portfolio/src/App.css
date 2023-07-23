@@ -86,10 +86,6 @@ p {
     display: flex;
     flex-direction: column;
   }
-  #subheading {
-    margin-left: 0;
-    padding-top: 1rem;
-  }
 }
 
 
