@@ -76,17 +76,20 @@ p {
   margin-top: 2rem; /* Use rem for spacing */
 }
 
+#subheading {
+  margin-left: 2rem; /* Use rem for spacing */
+  padding-top: 4rem; /* Use rem for spacing */
+}
 
 @media (max-width: 450px) {
   #home {
     display: flex;
     flex-direction: column;
   }
-}
-
-#subheading {
-  margin-left: 2rem; /* Use rem for spacing */
-  padding-top: 4rem; /* Use rem for spacing */
+  #subheading {
+    margin-left: 0;
+    padding-top: 1rem;
+  }
 }
 
 
@@ -125,3 +128,4 @@ footer {
 
 .project-link {
   text-align: center;
+}
