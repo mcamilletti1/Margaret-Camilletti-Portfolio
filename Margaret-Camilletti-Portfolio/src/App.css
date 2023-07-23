@@ -11,11 +11,12 @@
 }
 
 html, body {
-  background-color: #F5D7D8;
+  background-image: linear-gradient(to bottom, #0d1c69, #a257b8);
   color: #421212;
   height: 100%;
   margin: 0;
   padding: 0;
+  background-attachment: fixed;
 }
 
 body {
@@ -67,11 +68,6 @@ p {
   font-size: 1rem; /* Adjust font size for better readability */
 }
 
-.nav-links {
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem; /* Use rem for spacing */
-}
 
 #home {
   display: flex;
@@ -106,9 +102,8 @@ h3 {
 }
 
 footer {
-  background-color: #421212;
-  margin-top: auto;
-  padding: 1rem; /* Use rem for spacing */
+  background-color: #a257b8;
+  margin-top: auto; /* Use rem for spacing */
   position: fixed;
   left: 0;
   bottom: 0;
@@ -132,50 +127,6 @@ footer {
   text-align: center;
 }
 
-#home-link:hover {
-  color: #FE3B8D;
-  cursor: pointer;
-  background-color: white;
-  border: solid 1px #FE3B8D;
-  padding: 1em 1em 1em;
-  border-radius: 5px;
-}
-
-#contact-link:hover {
-  color: #80D7E3;
-  cursor: pointer;
-  background-color: white;
-  border: solid 1px #80D7E3;
-  padding: 1em;
-  border-radius: 5px;
-}
-
-#about-link:hover {
-  color: #E5AAFD;
-  cursor: pointer;
-  background-color: white;
-  border: solid 1px #E5AAFD;
-  padding: 1em;
-  border-radius: 5px;
-}
-
-#projects-link:hover{
-  color: #2585A5;
-  cursor: pointer;
-  background-color: white;
-  border: solid 1px #2585A5;
-  padding: 1em;
-  border-radius: 5px;
-}
-
-#resume-link:hover {
-  color: #FE3B8D;
-  cursor: pointer;
-  background-color: white;
-  border: solid 1px #FE3B8D;
-  padding: 1em;
-  border-radius: 5px;
-}
 
 .resume-links {
   color: #2585A5;
@@ -188,6 +139,8 @@ footer {
 
 #resume, #about-paragraph {
   background-color: white;
+  color: #2585A5;
+  border: solid 3px #80D7E3;
   padding: 2em;
   border-radius: 10px;
 }
@@ -195,7 +148,6 @@ footer {
 #about-paragraph {
   padding-left: 1em;
   padding-top: 1em;
-  border: solid 3px #E5AAFD;
 }
 
 .subheading {
@@ -205,6 +157,7 @@ footer {
   border-radius: 10px;
   margin-top: 7rem;
   position: relative;
+  margin-right: 2em;
 }
 
 #name {
@@ -220,10 +173,7 @@ footer {
 }
 
 #project-links {
-  background-color: white;
   padding: 1em 1em 1em 1em;
-  border-radius: 10px;
-  border: solid 4px #E5AAFD;
   text-align: center;
 }
 
@@ -242,45 +192,122 @@ footer {
   transform: rotate(55deg);
 }
 
+
+#about-header, #projects-header {
+  color: white;
+}
+
+header {
+  padding-top: 2em;
+  margin-bottom: 5em;
+}
+
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem 0 2rem;
+  background-color: #0d1c69;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  border-radius: 5px;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+}
+
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 3px 0;
+  transition: transform 0.2s ease;
+}
+
+
+
+.bar.active {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.bar.active:nth-child(2) {
+  opacity: 0;
+}
+
+.bar.active:last-child {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* Nav styles */
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #fff; /* Adjust the background color as needed */
+  position: absolute;
+  top: 60px; /* Adjust the top position as needed */
+  right: 20px; /* Adjust the right position as needed */
+  border: 3px solid #80D7E3; /* Add a border for better visibility */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a box shadow for better appearance */
+  display: none; /* Hide the nav links by default */
+}
+
+.nav-container.show-nav-links {
+  display: flex; /* Show the nav links when the showMenu state is true */
+}
+
+.nav {
+  color: #2585A5;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.nav:hover {
+  background-color: #FE3B8D;
+  color: white;
+  border-radius: 3px;
+}
+
 #home-link {
   color: white;
-  cursor: pointer;
-  background-color: #FE3B8D;
-  padding: 1em 1em 1em;
-  border-radius: 5px;
 }
 
-#contact-link {
-  color: white;
-  cursor: pointer;
-  background-color: #80D7E3;
-  padding: 1em;
-  border-radius: 5px;
+#home-link:hover {
+  color: #80D7E3;
+  background-color: #0d1c69;
 }
 
-#about-link {
-  color: white;
-  cursor: pointer;
-  background-color: #E5AAFD;
-  padding: 1em;
-  border-radius: 5px;
-}
 
-#projects-link{
-  color: white;
-  cursor: pointer;
-  background-color: #2585A5;
-  padding: 1em;
-  border-radius: 5px;
-}
 
-#resume-link {
-  color: white;
-  cursor: pointer;
-  background-color: #FE3B8D;
-  padding: 1em;
-  border-radius: 5px;
-}
+
+
+
+
+
 
 
 
