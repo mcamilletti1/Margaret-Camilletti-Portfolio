@@ -1,7 +1,7 @@
 :root {
   font-family: 'Inter', sans-serif;
-  margin-right: 0.5em;
-  margin-left: 0.5em;
+  margin-right: 1em;
+  margin-left: 1em;
 }
 
 @supports (font-variation-settings: normal) {
