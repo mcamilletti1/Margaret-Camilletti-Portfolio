@@ -76,6 +76,12 @@ p {
   margin-top: 2rem; /* Use rem for spacing */
 }
 
+@media (max-width: 320px) {
+  #home {
+    flex-direction: column;
+  }
+}
+
 #subheading {
   margin-left: 2rem; /* Use rem for spacing */
   padding-top: 4rem; /* Use rem for spacing */
