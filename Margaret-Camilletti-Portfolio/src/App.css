@@ -1,6 +1,11 @@
-:root { font-family: 'Inter', sans-serif; }
+:root {
+  font-family: 'Inter', sans-serif;
+}
+
 @supports (font-variation-settings: normal) {
-  :root { font-family: 'Inter var', sans-serif; }
+  :root {
+    font-family: 'Inter var', sans-serif;
+  }
 }
 
 html, body {
@@ -19,6 +24,7 @@ body {
   padding: 0;
 }
 
+/* Media query for devices with width greater than or equal to 768px */
 @media (min-width: 768px) {
   body {
     max-width: 1100px;
@@ -26,21 +32,20 @@ body {
   }
 }
 
-
-
 main {
   flex: 1;
 }
 
 #headshot {
   border-radius: 100%;
-  height: 250px;
+  height: 250px; /* Use pixels instead of em for fixed-size images */
   width: 250px;
   fill: #000000;
   fill-opacity: 0.1;
 }
 
-a:link, .project-title{
+/* Use rem instead of em for font sizes */
+a:link, .project-title {
   color: #421212;
   text-decoration: none;
 }
@@ -50,91 +55,59 @@ h1, h2, h3, h4, p {
 }
 
 h1 {
-  font-size: 55px;
+  font-size: 3rem; /* Adjust font size for better readability */
   padding-bottom: 0;
-  margin-bottom: 10px;
+  margin-bottom: 1rem; /* Use rem for spacing between elements */
 }
 
 p {
-  font-size: 18px;
+  font-size: 1rem; /* Adjust font size for better readability */
 }
-
 
 .nav-links {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 2rem; /* Use rem for spacing */
 }
 
 #home {
   display: flex;
-  flex-direction: row;
-  margin-top: 50px;
+  flex-direction: column; /* Change to column for mobile devices */
+  margin-top: 2rem; /* Use rem for spacing */
 }
 
-
 #subheading {
-  margin-left: 50px;
-  padding-top: 80px;
+  margin-left: 2rem; /* Use rem for spacing */
+  padding-top: 4rem; /* Use rem for spacing */
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 1.5rem; /* Adjust font size for better readability */
 }
 
 #homeH3 {
   padding-top: 0;
   margin-top: 0;
-  font-size: 30px;
+  font-size: 1.8rem; /* Adjust font size for better readability */
 }
-
 
 footer {
   background-color: #421212;
   margin-top: auto;
-  padding: 10px;
+  padding: 1rem; /* Use rem for spacing */
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
 }
 
-#home-link:hover {
-  color: #FE3B8D;
-  cursor: pointer;
-}
-
-#contact-link:hover {
-  color: #80D7E3;
-  cursor: pointer;
-}
-
-#about-link:hover {
-  color: #E5AAFD;
-  cursor: pointer;
-}
-
-#projects-link:hover, .project-title:hover {
-  color: #2585A5;
-  cursor: pointer;
-}
-
-#resume-link:hover {
-  color: #FE3B8D;
-  cursor: pointer;
-}
-
-#about, #home, #projects, #resume, #contact {
-  padding-top: 50px;
-}
+/* Add media queries for additional responsiveness as needed */
 
 .project-image {
   height: 250px;
   width: 250px;
-  border-radius: 10px;
-  -webkit-transition-property: all; 
-  -webkit-transition-duration: 0.3s; 
-  -webkit-transition-timing-function: ease; 
+  border-radius: 10px; /* Use pixels instead of em for fixed-size elements */
+  transition: all 0.3s ease; /* Simplify transition property */
 }
 
 .project-image:hover {
@@ -143,4 +116,3 @@ footer {
 
 .project-link {
   text-align: center;
-}
