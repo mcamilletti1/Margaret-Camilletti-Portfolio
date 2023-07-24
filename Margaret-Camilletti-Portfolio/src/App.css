@@ -317,7 +317,7 @@ header {
   display: flex;
   flex-direction: column;
   color: #0d1c69;
-  padding: 2rem 3rem 0 3rem;
+  padding: 2rem 3rem 1rem 3rem;
   margin-right: 5rem;
 }
 
@@ -351,7 +351,7 @@ input, textarea {
 }
 
 #contact-form {
-  padding: 1rem 3rem 1rem 3rem;
+  padding: 1rem 5rem 1rem 5rem;
   background-color: white;
   border-radius: 5px;
 }

@@ -1,16 +1,18 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
 
     const form = useRef();
-      
+    const [isMessageSent, setMessageSent] = useState(false);
+
     const sendEmail = (e) => {
         e.preventDefault();
       
         emailjs.sendForm('mcamilletti1', 'template_7ztkd4e', form.current, '34L68QSZcxrCsE6Vl')
         .then((result) => {
             console.log(result.text);
+            setMessageSent(true);
         }, (error) => {
             console.log(error.text);
         });
@@ -33,6 +35,9 @@ const Contact = () => {
                 </section>
                 <section id="contact-form">
                     <h4 id="form-header">Send me a message!</h4>
+                    {isMessageSent ? (
+                        <p>Message sent!</p>
+                    ) : (
                     <form ref={form} onSubmit={sendEmail}>
                         <input type="text" name="user_name" placeholder="Your name"></input>
                         <br></br>
@@ -42,6 +47,7 @@ const Contact = () => {
                         <br></br>
                         <button type="submit" value="Send">Submit</button>
                     </form>
+                    )}
                 </section>
             </section>
 
