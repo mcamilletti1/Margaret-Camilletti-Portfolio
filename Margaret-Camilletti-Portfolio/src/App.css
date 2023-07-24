@@ -50,7 +50,7 @@ main {
 
 /* Use rem instead of em for font sizes */
 a:link, .project-title {
-  color: #421212;
+  color: white;
   text-decoration: none;
 }
 
@@ -114,13 +114,14 @@ footer {
 
 .project-image {
   height: 250px;
-  width: 250px;
+  width: 275px;
   border-radius: 10px; /* Use pixels instead of em for fixed-size elements */
   transition: all 0.3s ease; /* Simplify transition property */
 }
 
 .project-image:hover {
   transform: scale(1.05);
+  filter: drop-shadow(.2rem .2rem .2rem #80D7E3)
 }
 
 .project-link {
@@ -139,8 +140,7 @@ footer {
 
 #resume, #about-paragraph {
   background-color: white;
-  color: #2585A5;
-  border: solid 3px #80D7E3;
+  color: #0d1c69;
   padding: 2em;
   border-radius: 10px;
 }
@@ -193,7 +193,7 @@ footer {
 }
 
 
-#about-header, #projects-header {
+#about-header, #projects-header, #contact-header {
   color: white;
 }
 
@@ -300,6 +300,88 @@ header {
   color: #80D7E3;
   background-color: #0d1c69;
 }
+
+#project-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.project-title:hover {
+  color: #80D7E3;
+}
+
+#left-contact {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  color: #0d1c69;
+  padding: 2rem 3rem 0 3rem;
+  margin-right: 5rem;
+}
+
+button {
+  background-color: #0d1c69;
+  color: white;
+  border-radius: 3px;
+  padding: 0.8rem;
+  border: none;
+}
+
+button:hover {
+  background-color:#FE3B8D;
+  border: none;
+  cursor: pointer;
+}
+
+#flex-contact {
+  display: flex;
+  flex-direction: row;
+}
+
+input, textarea {
+  border-radius: 5px;
+  border: solid 2px #0d1c69;
+  padding: 1rem;
+}
+
+#form-header {
+  color: #0d1c69;
+}
+
+#contact-form {
+  padding: 1rem 3rem 1rem 3rem;
+  background-color: white;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+#open-resume {
+  text-decoration: underline;
+}
+
+.resume-links:hover {
+  color: #FE3B8D;
+}
+
+#open-resume:hover {
+  color: #FE3B8D;
+}
+
+.resume-links {
+  text-decoration: underline;
+}
+
+
+
+
+
 
 
 
