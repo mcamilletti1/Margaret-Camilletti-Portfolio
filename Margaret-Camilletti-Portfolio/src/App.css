@@ -27,7 +27,6 @@ body {
   padding: 0;
 }
 
-/* Media query for devices with width greater than or equal to 768px */
 @media (min-width: 768px) {
   body {
     max-width: 1100px;
@@ -41,14 +40,14 @@ main {
 
 #headshot {
   border-radius: 100%;
-  height: 250px; /* Use pixels instead of em for fixed-size images */
+  height: 250px; 
   width: 250px;
   fill: #000000;
   fill-opacity: 0.1;
   border: solid 4px white;
 }
 
-/* Use rem instead of em for font sizes */
+
 a:link, .project-title {
   color: white;
   text-decoration: none;
@@ -59,7 +58,7 @@ h1, h2, h3, h4, p {
 }
 
 h1 {
-  font-size: 3rem; /* Adjust font size for better readability */
+  font-size: 3rem;
   padding-bottom: 0;
   margin-bottom: 1rem; /* Use rem for spacing between elements */
 }
@@ -87,6 +86,14 @@ p {
   .subheading {
     margin-left: 0;
     padding-top: 1rem;
+  }
+
+  #projects {
+    flex-direction: column;
+  }
+
+  #contact {
+    flex-direction: column;
   }
 }
 
