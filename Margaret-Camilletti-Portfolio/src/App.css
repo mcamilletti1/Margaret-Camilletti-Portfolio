@@ -89,10 +89,12 @@ p {
   }
 
   #projects {
+    display: flex;
     flex-direction: column;
   }
 
   #contact {
+    display: flex;
     flex-direction: column;
   }
 }
