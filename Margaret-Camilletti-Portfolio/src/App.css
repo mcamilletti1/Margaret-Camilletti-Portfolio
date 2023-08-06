@@ -78,16 +78,7 @@ p {
   margin-left: 2rem; /* Use rem for spacing */
 }
 
-@media (max-width: 768px) {
-  #home {
-    display: flex;
-    flex-direction: column;
-  }
-  .subheading {
-    margin-left: 0;
-    padding-top: 1rem;
-  }
-}
+
 
 @media (max-width: 450px) {
   /* Styles for screens smaller than or equal to 450px (e.g., mobile devices) */
@@ -112,11 +103,21 @@ p {
   #projects {
     display: flex;
     flex-direction: column;
+    width: 767px;
   }
 
   #contact {
     display: flex;
     flex-direction: column;
+  }
+
+  #home {
+    display: flex;
+    flex-direction: column;
+  }
+  .subheading {
+    margin-left: 0;
+    padding-top: 1rem;
   }
 }
 
