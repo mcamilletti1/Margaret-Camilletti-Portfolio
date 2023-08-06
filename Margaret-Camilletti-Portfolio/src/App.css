@@ -87,12 +87,12 @@ p {
     flex-direction: column;
   }
 
-  #projects {
+  #project-links {
     display: flex;
     flex-direction: column;
   }
 
-  #contact {
+  #flex-contact {
     display: flex;
     flex-direction: column;
   }
@@ -100,13 +100,12 @@ p {
 
 @media (min-width: 451px) and (max-width: 767px) {
   /* Styles for screens between 451px and 767px (e.g., smaller tablets) */
-  #projects {
+  #project-links {
     display: flex;
     flex-direction: column;
-    width: 451px;
   }
 
-  #contact {
+  #flex-contact {
     display: flex;
     flex-direction: column;
   }

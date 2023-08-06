@@ -5,7 +5,7 @@ const Projects = () => {
         <section id="projects">
             <h3 id="projects-header">Recent Projects</h3>
             <section id="project-links">
-                <section id="project-1">
+                <section id="project1">
                     <Link to="https://walksafenyc.netlify.app/" target="_blank"><img className="project-image" src="src/assets/Screenshot 2023-07-21 at 2.35.15 PM.png"/></Link>
                     <Link class="project-title" to="https://walksafenyc.netlify.app/" target="_blank"><p>WalkSafe NYC</p></Link>
                 </section>
