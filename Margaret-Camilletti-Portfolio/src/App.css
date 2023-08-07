@@ -80,56 +80,6 @@ p {
 
 
 
-@media (max-width: 450px) {
-  /* Styles for screens smaller than or equal to 450px (e.g., mobile devices) */
-  #home {
-    display: flex;
-    flex-direction: column;
-  }
-
-  #project-links {
-    display: flex;
-    flex-direction: column;
-  }
-
-  #flex-contact {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-@media (min-width: 451px) and (max-width: 767px) {
-  /* Styles for screens between 451px and 767px (e.g., smaller tablets) */
-  #project-links {
-    display: flex;
-    flex-direction: column;
-    border: solid 2px red;
-  }
-
-  #project1 {
-    border: solid 2px green;
-    width: 140px;
-  }
-
-  .project-image {
-    width: 140px;
-    border: solid 10px blue;
-  }
-
-  #flex-contact {
-    display: flex;
-    flex-direction: column;
-  }
-
-  #home {
-    display: flex;
-    flex-direction: column;
-  }
-  .subheading {
-    margin-left: 0;
-    padding-top: 1rem;
-  }
-}
 
 
 h3 {
@@ -417,6 +367,57 @@ form {
 
 .resume-links {
   text-decoration: underline;
+}
+
+@media (min-width: 451px) and (max-width: 767px) {
+  /* Styles for screens between 451px and 767px (e.g., smaller tablets) */
+  #project-links {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px red;
+  }
+
+  #project1 {
+    border: solid 2px green;
+    width: 140px;
+  }
+
+  .project-image {
+    width: 140px;
+    border: solid 10px blue;
+  }
+
+  #flex-contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #home {
+    display: flex;
+    flex-direction: column;
+  }
+  .subheading {
+    margin-left: 0;
+    padding-top: 1rem;
+  }
+}
+
+@media (max-width: 450px) {
+  /* Styles for screens smaller than or equal to 450px (e.g., mobile devices) */
+  #home {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #project-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #flex-contact {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 
