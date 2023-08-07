@@ -369,7 +369,7 @@ form {
   text-decoration: underline;
 }
 
-@media (min-width: 451px) and (max-width: 767px) {
+@media (min-width: 451px) and (max-width: 907px) {
   /* Styles for screens between 451px and 767px (e.g., smaller tablets) */
   #project-links {
     display: flex;
