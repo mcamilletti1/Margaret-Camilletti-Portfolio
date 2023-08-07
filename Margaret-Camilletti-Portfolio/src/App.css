@@ -374,18 +374,8 @@ form {
   #project-links {
     display: flex;
     flex-direction: column;
-    border: solid 2px red;
   }
 
-  #project1 {
-    border: solid 2px green;
-    width: 140px;
-  }
-
-  .project-image {
-    width: 140px;
-    border: solid 10px blue;
-  }
 
   #flex-contact {
     display: flex;
