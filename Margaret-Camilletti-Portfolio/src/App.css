@@ -106,6 +106,10 @@ p {
     border: solid 2px red;
   }
 
+  #project1 {
+    border: solid 2px green;
+  }
+
   #flex-contact {
     display: flex;
     flex-direction: column;
