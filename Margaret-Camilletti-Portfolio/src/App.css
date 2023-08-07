@@ -110,6 +110,10 @@ p {
     border: solid 2px green;
   }
 
+  .project-image {
+    width: 140px;
+  }
+
   #flex-contact {
     display: flex;
     flex-direction: column;
