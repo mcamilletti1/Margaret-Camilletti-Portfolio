@@ -108,6 +108,7 @@ p {
 
   #project1 {
     border: solid 2px green;
+    width: 140px;
   }
 
   .project-image {
