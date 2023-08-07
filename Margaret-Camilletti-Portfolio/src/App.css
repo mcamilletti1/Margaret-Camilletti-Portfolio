@@ -112,6 +112,7 @@ p {
 
   .project-image {
     width: 140px;
+    border: solid 10px blue;
   }
 
   #flex-contact {
