@@ -1,7 +1,12 @@
+import { Link } from 'react-router-dom'
+
+
 const Footer = () => {
     return (
        <footer className="app-footer">
-        <h4 className="footertxt">This is the footer</h4>
+        <Link className="nav" to="home" id="home-link" smooth={true} duration={500}>
+          Margaret Camilletti
+        </Link>
        </footer> 
     )
 }
