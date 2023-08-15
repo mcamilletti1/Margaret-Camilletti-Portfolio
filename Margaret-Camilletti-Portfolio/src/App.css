@@ -99,6 +99,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
+  height: 50px;
 }
 
 /* Add media queries for additional responsiveness as needed */
