@@ -404,7 +404,7 @@ form {
   .subheading:after {
     transform: rotate(12deg);
     margin-left: -15px;
-    margin-top: -25px; 
+    margin-top: -15px; 
   }
 }
 
