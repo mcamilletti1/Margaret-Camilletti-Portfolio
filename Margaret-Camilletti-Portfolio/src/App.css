@@ -424,6 +424,21 @@ form {
     display: flex;
     flex-direction: column;
   }
+
+  .subheading {
+    margin-top: 2rem;
+    position: relative;
+    margin-right: 2em;
+    margin-left: 0;
+    padding-top: 1rem;
+  }
+  
+  
+  .subheading:after {
+    transform: rotate(12deg);
+    margin-left: -15px;
+    margin-top: -18px; 
+  }
 }
 
 .project-description {
@@ -435,6 +450,7 @@ form {
 .icon {
   margin-right: 20px;
 }
+
 
 
 
