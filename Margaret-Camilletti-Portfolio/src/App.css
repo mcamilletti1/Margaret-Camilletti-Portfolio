@@ -402,7 +402,7 @@ form {
   
   
   .subheading:after {
-    transform: rotate(40deg);
+    transform: rotate(30deg);
   }
 }
 
