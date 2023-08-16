@@ -395,6 +395,17 @@ form {
     margin-left: 0;
     padding-top: 1rem;
   }
+
+  .subheading {
+    margin-top: 2rem;
+    position: relative;
+    margin-right: 2em;
+  }
+  
+  
+  .subheading:after {
+    transform: rotate(80deg);
+  }
 }
 
 @media (max-width: 450px) {
