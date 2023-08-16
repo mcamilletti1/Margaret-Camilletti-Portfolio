@@ -421,7 +421,10 @@ form {
 }
 
 
-
+.right-side {
+  display: flex;
+  justify-content: space-between;
+}
 
 
 

@@ -18,7 +18,7 @@ const Header = () => {
       </div>
       <div className="right-side">
       <a href="https://github.com/mcamilletti1"><img height="30px" width="30px" className="icon" src="src/assets/pngaaa.com-94893.png"></img></a>
-      <a href="https://linkedin.com/in/margaretcamilletti"><img height="30px" width="30px" className="icon" src="src/assets/png-transparent-white-in-text-on-black-background-black-and-white-point-angle-pattern-linkedin-texture-white-text.png"></img></a>
+      <a href="https://linkedin.com/in/margaretcamilletti"><img height="30px" width="30px" className="icon" src="src/assets/kisspng-united-states-hilton-hotels-resorts-organization-linkedin-white-5b39721a0b09e5.9500994915304914180452.png"></img></a>
         <div className={`hamburger-menu ${showMenu ? 'active' : ''}`} onClick={handleMenuToggle}>
           <div className="bar"></div>
           <div className="bar"></div>
