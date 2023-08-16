@@ -391,20 +391,18 @@ form {
     display: flex;
     flex-direction: column;
   }
-  .subheading {
-    margin-left: 0;
-    padding-top: 1rem;
-  }
 
   .subheading {
     margin-top: 2rem;
     position: relative;
     margin-right: 2em;
+    margin-left: 0;
+    padding-top: 1rem;
   }
   
   
   .subheading:after {
-    transform: rotate(80deg);
+    transform: rotate(150deg);
   }
 }
 
