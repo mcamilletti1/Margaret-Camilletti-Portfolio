@@ -17,8 +17,8 @@ const Header = () => {
         </Link>
       </div>
       <div className="right-side">
-      <img height="30px" width="30px" className="icon" src="src/assets/pngaaa.com-94893.png"></img>
-      <img height="30px" width="30px" className="icon" src="src/assets/png-transparent-white-in-text-on-black-background-black-and-white-point-angle-pattern-linkedin-texture-white-text.png"></img>
+      <a href="https://github.com/mcamilletti1"><img height="30px" width="30px" className="icon" src="src/assets/pngaaa.com-94893.png"></img></a>
+      <a href="https://linkedin.com/in/margaretcamilletti"><img height="30px" width="30px" className="icon" src="src/assets/png-transparent-white-in-text-on-black-background-black-and-white-point-angle-pattern-linkedin-texture-white-text.png"></img></a>
         <div className={`hamburger-menu ${showMenu ? 'active' : ''}`} onClick={handleMenuToggle}>
           <div className="bar"></div>
           <div className="bar"></div>
