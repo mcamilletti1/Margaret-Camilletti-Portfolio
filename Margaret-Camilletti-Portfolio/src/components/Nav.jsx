@@ -1,10 +1,11 @@
-import React from 'react';
-import { Link } from 'react-scroll';
+import { Link as ScrollLink } from 'react-scroll';
 
 const Nav = ({ showMenu }) => {
   return (
-    <div className={`nav-container ${showMenu ? 'show-nav-links' : ''}`}>
-      <Link
+    <nav className={`nav-container ${showMenu ? 'show-nav-links' : ''}`}>
+      <ul>
+        <li>
+      <ScrollLink
         className="nav"
         to="about"
         smooth={true}
@@ -12,8 +13,10 @@ const Nav = ({ showMenu }) => {
         offset={-70}
       >
         About
-      </Link>
-      <Link
+      </ScrollLink>
+      </li>
+      <li>
+      <ScrollLink
         className="nav"
         to="projects"
         smooth={true}
@@ -21,8 +24,10 @@ const Nav = ({ showMenu }) => {
         offset={-70}
       >
         Projects
-      </Link>
-      <Link
+      </ScrollLink>
+      </li>
+      <li>
+      <ScrollLink
         className="nav"
         to="resume"
         smooth={true}
@@ -30,8 +35,10 @@ const Nav = ({ showMenu }) => {
         offset={-70}
       >
         Resume
-      </Link>
-      <Link
+      </ScrollLink>
+      </li>
+      <li>
+      <ScrollLink
         className="nav"
         to="contact"
         smooth={true}
@@ -39,8 +46,10 @@ const Nav = ({ showMenu }) => {
         offset={-70}
       >
         Contact
-      </Link>
-    </div>
+      </ScrollLink>
+      </li>
+      </ul>
+    </nav>
   );
 };
 
