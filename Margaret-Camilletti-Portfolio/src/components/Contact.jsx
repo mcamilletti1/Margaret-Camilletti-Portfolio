@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -29,9 +29,9 @@ const Contact = () => {
                     <strong>Email</strong>
                     <p>mhcamilletti@gmail.com</p>
                     <br></br>
-                    <a href="https://linkedin.com/in/margaretcamilletti" target="_blank"><button>LinkedIn</button></a>
+                    <a href="https://linkedin.com/in/margaretcamilletti" rel="noreferrer" target="_blank"><button>LinkedIn</button></a>
                     <br></br>
-                    <a href="https://github.com/mcamilletti1" target="_blank"><button>GitHub</button></a>
+                    <a href="https://github.com/mcamilletti1" rel="noreferrer" target="_blank"><button>GitHub</button></a>
                 </section>
                 <section id="contact-form">
                     <h4 id="form-header">Send me a message!</h4>
@@ -39,12 +39,15 @@ const Contact = () => {
                         <p>Message sent!</p>
                     ) : (
                     <form ref={form} onSubmit={sendEmail}>
+                        <label htmlFor="user_name">Your name</label>
                         <input type="text" name="user_name" placeholder="Your name"></input>
-                        <br></br>
+                        <br />
+                        <label htmlFor="user_email">Your email</label>
                         <input type="email" name="user_email" placeholder="Your email"></input>
-                        <br></br>
+                        <br />
+                        <label htmlFor="message">Your message</label>
                         <textarea name="message" rows="5" cols="30" placeholder="Write your message here"></textarea>
-                        <br></br>
+                        <br />
                         <button type="submit" value="Send">Submit</button>
                     </form>
                     )}
