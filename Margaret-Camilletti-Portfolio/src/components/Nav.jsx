@@ -3,7 +3,7 @@ import { Link as ScrollLink } from 'react-scroll';
 const Nav = ({ showMenu }) => {
   return (
     <nav className={`nav-container ${showMenu ? 'show-nav-links' : ''}`}>
-      <ul>
+      <ul className="unstyled-ul">
         <li>
       <ScrollLink
         className="nav"
