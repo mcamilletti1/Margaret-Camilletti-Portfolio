@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+
 
 const Projects = () => {
     return (
@@ -7,7 +7,7 @@ const Projects = () => {
             <section id="project-links">
                 <section id="project1">
                     <a href="https://walksafenyc.netlify.app/" target="_blank" rel="noopener noreferrer"><img className="project-image" src="src/assets/Screenshot 2023-07-21 at 2.35.15 PM.png" alt="WalkSafe NYC Project Screenshot"/></a>
-                    <h4 className="project-title"><a href="https://walksafenyc.netlify.app/" target="_blank" rel="noopener noreferrer">WalkSafe NYC</a></h4>
+                    <h4><a href="https://walksafenyc.netlify.app/" className="project-title" target="_blank" rel="noopener noreferrer">WalkSafe NYC</a></h4>
                     <div className="project-description">
                         <p>Full-Stack React Application</p>
                         <p>HTML, CSS, JavaScript, React, MongoDB, Mongoose  	07/2023</p>
@@ -21,7 +21,7 @@ const Projects = () => {
                 <section id="project2">
                     <a href="https://disabilityscene.com" target="_blank" rel="noopener noreferrer">
                         <img className="project-image" src="src/assets/Screenshot 2023-08-06 at 4.11.42 PM.png" alt="Disability Scene Project Screenshot" /></a>
-                    <h4 className="project-title"><a href="https://disabilityscene.com" target="_blank" rel="noopener noreferrer">Disability Scene</a></h4>
+                    <h4><a href="https://disabilityscene.com" className="project-title" target="_blank" rel="noopener noreferrer">Disability Scene</a></h4>
                     <div className="project-description">
                         <p>Full-Stack Web Application</p>
                         <p>Python, Django REST Framework, Node, Express, HTML, CSS, JavaScript, React, PostgreSQL	06/2023</p>
@@ -36,7 +36,7 @@ const Projects = () => {
                 <section id="project3">
                     <a href="https://art-trivia-game.io/" target="_blank" rel="noopener noreferrer">
                         <img className="project-image" src="src/assets/Screenshot 2023-07-23 at 7.40.55 PM.png" alt="Art Trivia Project Screenshot" /></a>
-                    <h4 className="project-title"><a href="https://art-trivia-game.io/" target="_blank" rel="noopener noreferrer">Guess the Artist</a></h4>
+                    <h4><a href="https://art-trivia-game.io/" className="project-title" target="_blank" rel="noopener noreferrer">Guess the Artist</a></h4>
                     <div className="project-description">
                         <p>Interactive Javascript Game</p>
                         <p>Node.js, HTML, CSS, JavaScript 	05/2023</p>
