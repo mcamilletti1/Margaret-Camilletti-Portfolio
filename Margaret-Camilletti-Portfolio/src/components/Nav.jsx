@@ -1,60 +1,76 @@
-import { Link as ScrollLink } from 'react-scroll';
+
 
 const Nav = ({ showMenu }) => {
+
+  const scrollToTarget = (targetId) => {
+    const targetElement = document.getElementById(targetId);
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <nav className={`nav-container ${showMenu ? 'show-nav-links' : ''}`} id="menu-content">
       <ul className="unstyled-ul">
         <li>
-      <ScrollLink
+      <a
         className="nav"
-        to="about"
-        smooth={true}
-        duration={500}
-        offset={-70}
+        onClick={() => scrollToTarget('about')}
+        onKeyDown={(e) => {
+          if (e.key === 'Enter') {
+            scrollToTarget('about');
+          }
+        }}
         tabIndex={showMenu ? 0 : -1} 
         role="menuitem"
       >
         About
-      </ScrollLink>
+      </a>
       </li>
       <li>
-      <ScrollLink
+      <a
         className="nav"
-        to="projects"
-        smooth={true}
-        duration={500}
-        offset={-70}
+        onClick={() => scrollToTarget('projects')}
+        onKeyDown={(e) => {
+          if (e.key === 'Enter') {
+            scrollToTarget('projects');
+          }
+        }}
         tabIndex={showMenu ? 0 : -1}
         role="menuitem"
       >
         Projects
-      </ScrollLink>
+      </a>
       </li>
       <li>
-      <ScrollLink
+      <a
         className="nav"
-        to="resume"
-        smooth={true}
-        duration={500}
-        offset={-70}
+        onClick={() => scrollToTarget('resume')}
+        onKeyDown={(e) => {
+          if (e.key === 'Enter') {
+            scrollToTarget('resume');
+          }
+        }}
         tabIndex={showMenu ? 0 : -1}
         role="menuitem"
       >
         Resume
-      </ScrollLink>
+      </a>
       </li>
       <li>
-      <ScrollLink
+      <a
         className="nav"
-        to="contact"
-        smooth={true}
-        duration={500}
-        offset={-70}
+        onClick={() => scrollToTarget('contact')}
+        onKeyDown={(e) => {
+          if (e.key === 'Enter') {
+            scrollToTarget('contact');
+          }
+        }}
         tabIndex={showMenu ? 0 : -1}
         role="menuitem"
       >
         Contact
-      </ScrollLink>
+      </a>
       </li>
       </ul>
     </nav>
