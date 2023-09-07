@@ -2,7 +2,7 @@ import { Link as ScrollLink } from 'react-scroll';
 
 const Nav = ({ showMenu }) => {
   return (
-    <nav className={`nav-container ${showMenu ? 'show-nav-links' : ''}`}>
+    <nav className={`nav-container ${showMenu ? 'show-nav-links' : ''}`} id="menu-content">
       <ul className="unstyled-ul">
         <li>
       <ScrollLink
@@ -11,6 +11,7 @@ const Nav = ({ showMenu }) => {
         smooth={true}
         duration={500}
         offset={-70}
+        tabIndex={showMenu ? 0 : -1} 
       >
         About
       </ScrollLink>
@@ -22,6 +23,7 @@ const Nav = ({ showMenu }) => {
         smooth={true}
         duration={500}
         offset={-70}
+        tabIndex={showMenu ? 0 : -1}
       >
         Projects
       </ScrollLink>
@@ -33,6 +35,7 @@ const Nav = ({ showMenu }) => {
         smooth={true}
         duration={500}
         offset={-70}
+        tabIndex={showMenu ? 0 : -1}
       >
         Resume
       </ScrollLink>
@@ -44,6 +47,7 @@ const Nav = ({ showMenu }) => {
         smooth={true}
         duration={500}
         offset={-70}
+        tabIndex={showMenu ? 0 : -1}
       >
         Contact
       </ScrollLink>

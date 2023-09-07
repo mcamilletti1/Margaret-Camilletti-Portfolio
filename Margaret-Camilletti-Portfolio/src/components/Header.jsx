@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Nav from './Nav';
 
@@ -10,10 +10,31 @@ const Header = () => {
   };
 
   const handleMenuKeyDown = (e) => {
-    if (e.key === 'Enter' || e.key === 'Space') {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
       handleMenuToggle();
+    } else if (e.key === 'Escape') {
+      setShowMenu(false);
     }
   };
+
+  useEffect(() => {
+    const closeMenuOnBlur = () => {
+      if (showMenu) {
+        setShowMenu(false);
+      }
+    }
+
+    if (showMenu) {
+      window.addEventListener('blur', closeMenuOnBlur);
+    } else {
+      window.removeEventListener('blur', closeMenuOnBlur);
+    }
+
+    return () => {
+      window.removeEventListener('blur', closeMenuOnBlur);
+    }
+  }, [showMenu]);
 
   return (
     <header className="header-container">
@@ -31,6 +52,7 @@ const Header = () => {
         tabIndex={0}
         role="button"
         aria-label="Toggle Menu"
+        aria-haspopup="true"
         aria-expanded={showMenu}
         aria-controls="menu-content"
         >
