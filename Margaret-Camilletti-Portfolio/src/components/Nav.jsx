@@ -12,6 +12,7 @@ const Nav = ({ showMenu }) => {
         duration={500}
         offset={-70}
         tabIndex={showMenu ? 0 : -1} 
+        role="menuitem"
       >
         About
       </ScrollLink>
@@ -24,6 +25,7 @@ const Nav = ({ showMenu }) => {
         duration={500}
         offset={-70}
         tabIndex={showMenu ? 0 : -1}
+        role="menuitem"
       >
         Projects
       </ScrollLink>
@@ -36,6 +38,7 @@ const Nav = ({ showMenu }) => {
         duration={500}
         offset={-70}
         tabIndex={showMenu ? 0 : -1}
+        role="menuitem"
       >
         Resume
       </ScrollLink>
@@ -48,6 +51,7 @@ const Nav = ({ showMenu }) => {
         duration={500}
         offset={-70}
         tabIndex={showMenu ? 0 : -1}
+        role="menuitem"
       >
         Contact
       </ScrollLink>

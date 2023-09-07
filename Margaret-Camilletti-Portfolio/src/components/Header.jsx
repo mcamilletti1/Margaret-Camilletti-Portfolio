@@ -6,6 +6,7 @@ const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   const handleMenuToggle = () => {
+    console.log('Menu Toggled')
     setShowMenu(!showMenu);
   };
 
