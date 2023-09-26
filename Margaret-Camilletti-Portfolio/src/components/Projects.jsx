@@ -6,6 +6,19 @@ const Projects = () => {
             <h3 id="projects-header">Recent Projects</h3>
             <section id="project-links">
                 <section id="project1">
+                    <a href="https://calm-candle-shop.onrender.com/" target="_blank" rel="noopener noreferrer"><img className="project-image" src="src/assets/Screenshot 2023-08-04 at 5.09.14 PM (2).png"></img></a>
+                    <h4><a href="https://calm-candle-shop.onrender.com/" className="project-title" target="_blank" rel="noopener noreferrer">Calm Candle Shop</a></h4>
+                    <div className="project-description">
+                        <p>Full-Stack MEAN Application</p>
+                        <p>HTML, CSS, TypeScript, Angular, MongoDB, Mongoose    08/2023</p>
+                    <ul>
+                        <li>Built frontend in Angular and TypeScript</li>
+                        <li>Backend API built using MongoDB, Mongoose, Express, and Node JS</li>
+                        <li>Link to deployed application: <a className="resume-links" href="https://calm-candle-shop.onrender.com/" target="_blank" rel="noopener noreferrer">Calm Candle Shop</a></li>
+                    </ul>
+                    </div>
+                </section>
+                <section id="project2">
                     <a href="https://walksafenyc.netlify.app/" target="_blank" rel="noopener noreferrer"><img className="project-image" src="src/assets/Screenshot 2023-07-21 at 2.35.15 PM.png" alt="WalkSafe NYC Project Screenshot"/></a>
                     <h4><a href="https://walksafenyc.netlify.app/" className="project-title" target="_blank" rel="noopener noreferrer">WalkSafe NYC</a></h4>
                     <div className="project-description">
@@ -18,7 +31,7 @@ const Projects = () => {
                     </ul>
                     </div>
                 </section>
-                <section id="project2">
+                <section id="project3">
                     <a href="https://disabilityscene.com" target="_blank" rel="noopener noreferrer">
                         <img className="project-image" src="src/assets/Screenshot 2023-08-06 at 4.11.42 PM.png" alt="Disability Scene Project Screenshot" /></a>
                     <h4><a href="https://disabilityscene.com" className="project-title" target="_blank" rel="noopener noreferrer">Disability Scene</a></h4>
@@ -33,7 +46,7 @@ const Projects = () => {
                     </ul>
                     </div>
                 </section>
-                <section id="project3">
+                <section id="project4">
                     <a href="https://art-trivia-game.io/" target="_blank" rel="noopener noreferrer">
                         <img className="project-image" src="src/assets/Screenshot 2023-07-23 at 7.40.55 PM.png" alt="Art Trivia Project Screenshot" /></a>
                     <h4><a href="https://art-trivia-game.io/" className="project-title" target="_blank" rel="noopener noreferrer">Guess the Artist</a></h4>
