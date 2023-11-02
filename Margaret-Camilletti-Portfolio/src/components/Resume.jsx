@@ -16,7 +16,7 @@ Languages |</strong> JavaScript, HTML, CSS, Python, TypeScript, Go<br></br>
 
 <strong></strong>Backend Developer | Revent Solutions | Remote 11/2023-Present</strong><br></br>
 <ul><li>Worked on backend team of Revent Solutions to build robust, secure, and scalable web applications</li>
-<li>Created tailored solutions based on insightful data.</li></ul><br></br><br></br>
+<li>Created tailored solutions based on insightful data.</li></ul><br></br>
 
 <strong>Vice President | Squeaky Wheel Media 501(c)(3) | New York, NY	5/2021-Present</strong><br></br>
 <ul><li>Co-founded non-profit The Squeaky Wheel, a satirical publication that aims to spread awareness about disability rights issues through humor.</li>
