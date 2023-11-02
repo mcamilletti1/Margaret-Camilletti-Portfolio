@@ -12,7 +12,7 @@ Languages |</strong> JavaScript, HTML, CSS, Python, TypeScript, Go<br></br>
 <strong>Other |</strong> RESTful Routing JSON, MERN stack, MEAN stack, ChatGPT, Canva, Figma, Postman, ThunderClient, Adobe Photoshop, Wordpress<br></br><br></br>
 
 
-<strong>PROFESSIONAL EXPERIENCE<br></br>
+<strong>PROFESSIONAL EXPERIENCE<br></br><br></br>
 
 <strong></strong>Backend Developer | Revent Solutions | Remote 11/2023-Present</strong><br></br>
 <ul><li>Worked on backend team of Revent Solutions to build robust, secure, and scalable web applications</li>
