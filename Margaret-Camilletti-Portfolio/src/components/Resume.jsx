@@ -22,7 +22,7 @@ Languages |</strong> JavaScript, HTML, CSS, Python, TypeScript, Go<br></br>
 <ul><li>Co-founded non-profit The Squeaky Wheel, a satirical publication that aims to spread awareness about disability rights issues through humor.</li>
 <li>Write and edit articles for website, promote accessibility and disability rights issues through publicity events, provide support for team of satire writers</li></ul><br></br><br></br>
 
-<strong>EDUCATION<br></br>
+<strong>EDUCATION<br></br><br></br>
 General Assembly|</strong> Software Engineering Immersive				 	  	8/2023<br></br>
 Full-stack software engineering immersive student in an intensive, 450+ hour program focused on product development fundamentals, object-oriented programming, MVC frameworks, data modeling, and team collaboration strategies. Developed a portfolio of individual and group projects.<br></br><br></br>
 
