@@ -161,15 +161,10 @@ footer {
 }
 
 
-
 #home, #about, #resume, #projects, #contact {
   margin-bottom: 4em;
 }
 
-#project-links {
-  padding: 1em 1em 1em 1em;
-  text-align: center;
-}
 
 .subheading:after {
   content: '';
