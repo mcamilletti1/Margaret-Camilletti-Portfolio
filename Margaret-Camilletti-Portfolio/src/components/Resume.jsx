@@ -7,20 +7,19 @@ const Resume = () => {
  <p>
 <strong>SKILLS<br></br><br></br>
 Languages |</strong> JavaScript, HTML, CSS, Python, TypeScript, Go<br></br>
-<strong>Libraries and Frameworks |</strong> React, React Native, Node.js, Express.js, Django, Flask, Angular<br></br>
-<strong>Database |</strong> PostgreSQL, Sequelize, ORM, MongoDB, Mongoose, ODM, ElephantSQL, MongoDBAtlas, Oracle<br></br>
-<strong>Other |</strong> RESTful Routing JSON, MERN stack, MEAN stack, ChatGPT, Canva, Figma, Postman, ThunderClient, Adobe Photoshop, Wordpress<br></br><br></br><br></br>
+<strong>Libraries and Frameworks |</strong> React, Node.js, Express.js, Django, Flask, Angular, React Native, Bootstrap<br></br>
+<strong>Database |</strong> PostgreSQL, Sequelize, ORM, MongoDB, Mongoose, ODM, ElephantSQL, MongoDBAtlas, MySQL, Oracle<br></br>
+<strong>Other |</strong> Scrum, Agile, Git, GitHub, Linux, Bash, iOS, Jira, BitBucket, RESTful Routing JSON, MERN stack, MEAN stack, ChatGPT, Canva, Figma, Postman, ThunderClient, Adobe Photoshop, Wordpress, Web Accessibility<br></br><br></br><br></br>
 
 
 <strong>PROFESSIONAL EXPERIENCE<br></br><br></br>
 
 <strong></strong>Backend Developer | Revent Solutions | Remote 11/2023-Present</strong><br></br>
-<ul><li>Worked on backend team of Revent Solutions to build robust, secure, and scalable web applications</li>
-<li>Created tailored solutions based on insightful data.</li></ul><br></br>
-
-<strong>Vice President | Squeaky Wheel Media 501(c)(3) | New York, NY	5/2021-Present</strong><br></br>
-<ul><li>Co-founded non-profit The Squeaky Wheel, a satirical publication that aims to spread awareness about disability rights issues through humor.</li>
-<li>Write and edit articles for website, promote accessibility and disability rights issues through publicity events, provide support for team of satire writers</li></ul><br></br><br></br>
+<ul><li>Collaborated with the backend team at Revent Solutions to develop robust, secure, and scalable web applications, leveraging the MERN stack (MongoDB, Express.js, React, Node.js) for full-stack development efficiency.</li>
+<li>Engineered tailored solutions by analyzing insightful data, integrating Oracle databases to enhance data management and application performance.</li>
+<li>Actively participated in a dynamic team of developers to architect and implement the backend API for WalletWize, a personal finance application, ensuring seamless data integration and user experience.</li>
+<li>Employed Agile and Scrum methodologies to streamline project management, enhance team collaboration, and ensure timely delivery of high-quality software features.</li>
+<li>Utilized AI-powered technologies to create dynamic web applications and intuitive mobile platforms, focusing on user-centric design and functionality.</li></ul><br></br>
 
 <strong>EDUCATION<br></br><br></br>
 General Assembly|</strong> Software Engineering Immersive				 	  	8/2023<br></br>
