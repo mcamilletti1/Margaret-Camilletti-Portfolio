@@ -178,7 +178,7 @@ footer {
   border: 20px solid transparent;
   border-right-color: rgba(255, 255, 255, 0.5); 
   border-bottom: 0;
-  margin-top: -20px; 
+  margin-top: -25px; 
   margin-left: -20px;
   transform: rotate(60deg);
 }
@@ -472,6 +472,10 @@ form {
 
 .icon {
   margin-right: 20px;
+}
+
+.icon:hover {
+  background-color: #FE3B8D;
 }
 
 label {
