@@ -107,7 +107,7 @@ footer {
 .project-image {
   height: 250px;
   width: 275px;
-  border-radius: 10px; /* Use pixels instead of em for fixed-size elements */
+  border-radius: 20px; /* Use pixels instead of em for fixed-size elements */
   transition: all 0.3s ease; /* Simplify transition property */
 }
 
@@ -135,7 +135,7 @@ footer {
   border: solid 2px rgba(255, 255, 255, 0.5);
   color: white;
   padding: 2em;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 #about-paragraph {
@@ -307,7 +307,7 @@ header {
 #left-contact {
   background-color: transparent;
   border: solid 2px rgba(255, 255, 255, 0.5);
-  border-radius: 10px;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   color: white;
@@ -332,7 +332,9 @@ button:hover {
 #project1, #project2, #project3, #project4 {
   margin-right: 10px;
   border: solid 2px rgba(255, 255, 255, 0.5);
-  border-radius: 10px;
+  border-radius: 20px;
+  padding: 5px;
+  margin-bottom: 10px;
 }
 
 #flex-contact {
@@ -354,7 +356,7 @@ input, textarea {
   padding: 1rem 5rem 1rem 5rem;
   background-color: transparent;
   border: solid 2px rgba(255, 255, 255, 0.5);
-  border-radius: 5px;
+  border-radius: 20px;
 }
 
 form {
