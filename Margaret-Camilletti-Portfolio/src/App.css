@@ -346,6 +346,8 @@ input, textarea {
   border-radius: 5px;
   border: solid 2px #0d1c69;
   padding: 1rem;
+  background-color: transparent;
+  border: solid 2px rgba(255, 255, 255, 0.5);
 }
 
 #form-header {
