@@ -318,7 +318,6 @@ header {
   flex-direction: column;
   color: white;
   padding: 2rem 3rem 1rem 3rem;
-  margin-right: 5rem;
   backdrop-filter: blur(100px);
 }
 
