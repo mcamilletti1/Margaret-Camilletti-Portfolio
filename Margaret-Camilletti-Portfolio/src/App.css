@@ -432,7 +432,7 @@ form {
   
   
   .subheading:after {
-    transform: rotate(12deg);
+    transform: rotate(3deg);
     margin-left: -15px;
     margin-top: -18px; 
   }
@@ -471,7 +471,7 @@ form {
   
   
   .subheading:after {
-    transform: rotate(7deg);
+    transform: rotate(3deg);
     margin-left: -15px;
     margin-top: -18px; 
   }
