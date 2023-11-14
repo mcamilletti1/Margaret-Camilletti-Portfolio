@@ -109,6 +109,11 @@ footer {
   height: 250px;
   width: 275px;
   border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.project-image:hover {
+  transform: scale(1.05);
 }
 
 .project-link {
@@ -331,11 +336,6 @@ button:hover {
   border-radius: 20px;
   margin-bottom: 10px;
   backdrop-filter: blur(100px);
-  transition: all 0.3s ease;
-}
-
-#project1:hover, #project2:hover, #project3:hover, #project4:hover {
-  transform: scale(1.05);
 }
 
 #flex-contact {
