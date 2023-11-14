@@ -505,6 +505,11 @@ label {
   padding-left: 0;
 }
 
+#contactButtons {
+  display: flex;
+  justify-content: space-between;
+}
+
 
 
 
