@@ -402,6 +402,10 @@ form {
   flex-direction: column;
 }
 
+#contactButtons {
+  margin-top: 2rem;
+}
+
 @media (min-width: 451px) and (max-width: 907px) {
   /* Styles for screens between 451px and 767px (e.g., smaller tablets) */
   #project-links {
@@ -448,6 +452,11 @@ form {
     flex-direction: row;
   }
 
+  #contactButtons {
+    margin-left: 2rem;
+    margin-top: 0;
+  }
+
 }
 
 @media (max-width: 450px) {
@@ -489,6 +498,11 @@ form {
   #left-contact {
     display: flex;
     flex-direction: row;
+  }
+
+  #contactButtons {
+    margin-left: 2rem;
+    margin-top: 0;
   }
 }
 
