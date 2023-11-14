@@ -337,7 +337,6 @@ button:hover {
 
 #project1:hover, #project2:hover, #project3:hover, #project4:hover {
   transform: scale(1.05);
-  filter: drop-shadow(.2rem .2rem .2rem #80D7E3);
 }
 
 #flex-contact {
@@ -354,7 +353,7 @@ input, textarea {
   backdrop-filter: blur(100px);
 }
 
-input::placeholder textarea::placeholder{
+input::placeholder, textarea::placeholder{
   color: rgba(255, 255, 255, 0.5);
 }
 
