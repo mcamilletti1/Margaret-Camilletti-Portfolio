@@ -12,7 +12,7 @@
 
 html, body {
   background-image: linear-gradient(to bottom, #0d1c69, #a257b8);
-  color: #421212;
+  color: white;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -133,7 +133,7 @@ footer {
 #resume, #about-paragraph {
   background-color: transparent;
   border: solid 2px rgba(255, 255, 255, 0.5);
-  color: #0d1c69;
+  color: white;
   padding: 2em;
   border-radius: 10px;
 }
@@ -310,7 +310,7 @@ header {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  color: #0d1c69;
+  color: white;
   padding: 2rem 3rem 1rem 3rem;
   margin-right: 5rem;
 }
@@ -346,7 +346,7 @@ input, textarea {
 }
 
 #form-header {
-  color: #0d1c69;
+  color: white;
 }
 
 #contact-form {
@@ -460,7 +460,7 @@ form {
 }
 
 label {
-  color: #0d1c69;
+  color: color;
 }
 
 .unstyled-ul {
