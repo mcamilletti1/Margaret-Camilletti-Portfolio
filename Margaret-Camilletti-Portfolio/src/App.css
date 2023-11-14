@@ -503,6 +503,7 @@ form {
     flex-direction: row;
     margin-bottom: 2rem;
     margin-right: 0;
+    padding-right: 1rem;
   }
 
   #contactButtons {
