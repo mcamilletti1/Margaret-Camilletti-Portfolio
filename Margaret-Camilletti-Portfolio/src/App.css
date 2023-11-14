@@ -1,15 +1,17 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-
 :root {
+  font-family: 'Inter', sans-serif;
   margin-right: 1em;
   margin-left: 1em;
-  font-family: 'poppins', sans-serif;
 }
 
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: 'Inter var', sans-serif;
+  }
+}
 
 html, body {
-  background-image: linear-gradient(to bottom, #4d5eb1, #a776b6);
+  background-image: linear-gradient(to bottom, #0d1c69, #a257b8);
   color: white;
   height: 100%;
   margin: 0;
