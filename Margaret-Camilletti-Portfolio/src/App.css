@@ -131,7 +131,7 @@ footer {
 }
 
 #resume, #about-paragraph {
-  background-color: white;
+  background-color: transparent;
   color: #0d1c69;
   padding: 2em;
   border-radius: 10px;
@@ -304,7 +304,7 @@ header {
 }
 
 #left-contact {
-  background-color: white;
+  background-color: transparent;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -348,7 +348,7 @@ input, textarea {
 
 #contact-form {
   padding: 1rem 5rem 1rem 5rem;
-  background-color: white;
+  background-color: transparent;
   border-radius: 5px;
 }
 
