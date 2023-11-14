@@ -14,7 +14,6 @@ const Projects = () => {
                     <ul>
                         <li>Worked on a team of four developers to create a full-stack mobile-optimized application using React that maps and tracks instances of street harassment and catcalling in New York City so you can walk safely through the five boroughs.</li>
                         <li>Set up and tested backend CRUD using Thunderclient and frontend CRUD for user accounts and reports of harassment, set up React components and routes, created all React forms and set up user authentication, set up persistent login functionality</li>
-                        <li>Link to deployed application: <a className="resume-links" href="https://walksafenyc.netlify.app/" target="_blank"rel="noopener noreferrer">WalkSafe NYC</a></li>
                     </ul>
                     </div>
                 </section>
@@ -29,7 +28,6 @@ const Projects = () => {
                         <li>Built backend Django REST API database for an interactive website that allows users to review and rate movies about disability based on each film’s quality of disability representation, set up and tested backend CRUD using Thunderclient as well as frontend CRUD for movies, actors, and reviews</li>
                         <li>Used Django REST framework to define schemas for  PostgreSQL collections</li>
                         <li>Created fully interactive and accessible front-end for the website up to the standard of WCAG using CSS3 and flexbox layout</li>
-                        <li>Link to deployed application: <a className="resume-links" href="https://disabilityscene.com" target="_blank" rel="noopener noreferrer">Disability Scene</a></li>
                     </ul>
                     </div>
                 </section>
@@ -44,7 +42,6 @@ const Projects = () => {
                         <li>Utilized the Art Institute of Chicago’s API, Axios, and Vanilla JavaScript to create a trivia game where users have to guess the artist based on the painting.</li>
                         <li>Created game logic in JavaScript and pulled data from the API using Axios to populate multiple choice questions and information about each painting, included randomizing multiple choice functionality and score counter</li>
                         <li>Created a professionally-styled front-end using HTML and CSS</li>
-                        <li>Link to deployed application: <a className="resume-links" href="https://art-trivia-game.io/" target="_blank" rel="noopener noreferrer">Guess the Artist</a></li>
                     </ul>
                     </div>
                 </section>
@@ -57,7 +54,6 @@ const Projects = () => {
                     <ul>
                         <li>Built frontend in Angular and TypeScript</li>
                         <li>Backend API built using MongoDB, Mongoose, Express, and Node JS</li>
-                        <li>Link to deployed application: <a className="resume-links" href="https://calm-candle-shop.onrender.com/" target="_blank" rel="noopener noreferrer">Calm Candle Shop</a></li>
                     </ul>
                     </div>
                 </section>
