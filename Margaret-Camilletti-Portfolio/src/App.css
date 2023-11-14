@@ -473,7 +473,7 @@ form {
   .subheading:after {
     transform: rotate(3deg);
     margin-left: -15px;
-    margin-top: -18px; 
+    margin-top: -20px; 
   }
 
   #left-contact {
