@@ -26,7 +26,6 @@ const Contact = () => {
                     <section id="phoneEmail">
                         <strong>Call Me</strong>
                         <p>304-914-2902</p>
-                        <br></br>
                         <strong>Email</strong>
                         <p>mhcamilletti@gmail.com</p>
                     </section>
