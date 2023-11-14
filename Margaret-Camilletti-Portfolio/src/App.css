@@ -327,6 +327,10 @@ button:hover {
   cursor: pointer;
 }
 
+#project1, #project2, #project3, #project4 {
+  margin-right: 5px;
+}
+
 #flex-contact {
   display: flex;
   flex-direction: row;
