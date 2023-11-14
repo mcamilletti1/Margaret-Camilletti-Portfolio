@@ -20,6 +20,10 @@ html, body {
   background-attachment: fixed;
 }
 
+#phoneEmail {
+  margin-bottom: 2rem;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -407,6 +411,10 @@ form {
     flex-direction: column;
   }
 
+  #phoneEmail {
+    margin-right: 2rem;
+  }
+
 
   #flex-contact {
     display: flex;
@@ -449,6 +457,10 @@ form {
   #home {
     display: flex;
     flex-direction: column;
+  }
+
+  #phoneEmail {
+    margin-right: 2rem;
   }
 
   #project-links {
@@ -507,8 +519,11 @@ label {
 
 #contactButtons {
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
+}
+
+#contactLinkedIn {
+  margin-bottom: 2rem;
 }
 
 
