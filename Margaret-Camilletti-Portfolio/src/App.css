@@ -337,6 +337,7 @@ button:hover {
   margin-bottom: 10px;
   backdrop-filter: blur(100px);
   border: solid 0.5px rgba(255, 255, 255, 0.5);
+  padding: 2em;
 }
 
 #flex-contact {
