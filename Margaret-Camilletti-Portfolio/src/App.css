@@ -11,7 +11,8 @@
 }
 
 html, body {
-  background-image: linear-gradient(to bottom, #0d1c69, #a257b8);
+  background: rgb(13,28,105);
+background: linear-gradient(360deg, rgba(13,28,105,1) 0%, rgba(162,87,184,1) 50%, rgba(0,212,255,1) 100%);
   color: white;
   height: 100%;
   margin: 0;
