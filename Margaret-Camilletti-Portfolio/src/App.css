@@ -134,7 +134,7 @@ footer {
 #resume, #about-paragraph {
   background-color: transparent;
   border: solid 2px rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(55px);
+  backdrop-filter: blur(100px);
   color: white;
   padding: 2em;
   border-radius: 20px;
@@ -315,7 +315,7 @@ header {
   color: white;
   padding: 2rem 3rem 1rem 3rem;
   margin-right: 5rem;
-  backdrop-filter: blur(55px);
+  backdrop-filter: blur(100px);
 }
 
 button {
@@ -337,7 +337,7 @@ button:hover {
   border: solid 2px rgba(255, 255, 255, 0.5);
   border-radius: 20px;
   margin-bottom: 10px;
-  backdrop-filter: blur(55px);
+  backdrop-filter: blur(100px);
 }
 
 #flex-contact {
@@ -351,7 +351,11 @@ input, textarea {
   padding: 1rem;
   background-color: transparent;
   border: solid 2px rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(55px);
+  backdrop-filter: blur(100px);
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 #form-header {
@@ -363,7 +367,7 @@ input, textarea {
   background-color: transparent;
   border: solid 2px rgba(255, 255, 255, 0.5);
   border-radius: 20px;
-  backdrop-filter: blur(55px);
+  backdrop-filter: blur(100px);
 }
 
 form {
