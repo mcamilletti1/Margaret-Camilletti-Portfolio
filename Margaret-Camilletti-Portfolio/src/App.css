@@ -95,8 +95,7 @@ h3 {
 
 footer {
   background-color: #d2af80;
-  margin-top: auto; /* Use rem for spacing */
-  position: fixed;
+  margin-top: auto;
   left: 0;
   bottom: 0;
   width: 100%;
