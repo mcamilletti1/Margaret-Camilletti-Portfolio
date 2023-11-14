@@ -393,6 +393,11 @@ form {
   text-decoration: underline;
 }
 
+#left-contact {
+  display: flex;
+  flex-direction: column;
+}
+
 @media (min-width: 451px) and (max-width: 907px) {
   /* Styles for screens between 451px and 767px (e.g., smaller tablets) */
   #project-links {
@@ -429,6 +434,12 @@ form {
     margin-left: -15px;
     margin-top: -18px; 
   }
+
+  #left-contact {
+    display: flex;
+    flex-direction: row;
+  }
+
 }
 
 @media (max-width: 450px) {
@@ -461,6 +472,11 @@ form {
     transform: rotate(7deg);
     margin-left: -15px;
     margin-top: -18px; 
+  }
+
+  #left-contact {
+    display: flex;
+    flex-direction: row;
   }
 }
 

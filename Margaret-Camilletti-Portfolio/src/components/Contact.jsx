@@ -23,15 +23,19 @@ const Contact = () => {
             <h3 id="contact-header">Contact Me</h3>
             <section id="flex-contact">
                 <section id="left-contact">
-                    <strong>Call Me</strong>
-                    <p>304-914-2902</p>
-                    <br></br>
-                    <strong>Email</strong>
-                    <p>mhcamilletti@gmail.com</p>
-                    <br></br>
-                    <a href="https://linkedin.com/in/margaretcamilletti" rel="noreferrer" target="_blank"><button>LinkedIn</button></a>
-                    <br></br>
-                    <a href="https://github.com/mcamilletti1" rel="noreferrer" target="_blank"><button>GitHub</button></a>
+                    <section id="phoneEmail">
+                        <strong>Call Me</strong>
+                        <p>304-914-2902</p>
+                        <br></br>
+                        <strong>Email</strong>
+                        <p>mhcamilletti@gmail.com</p>
+                    </section>
+                    <section id="contactButtons">
+                        <br></br>
+                        <a href="https://linkedin.com/in/margaretcamilletti" rel="noreferrer" target="_blank"><button>LinkedIn</button></a>
+                        <br></br>
+                        <a href="https://github.com/mcamilletti1" rel="noreferrer" target="_blank"><button>GitHub</button></a>
+                    </section>
                 </section>
                 <section id="contact-form">
                     <h4 id="form-header">Send me a message!</h4>
