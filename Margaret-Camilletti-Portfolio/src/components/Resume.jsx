@@ -3,12 +3,12 @@
 const Resume = () => {
     return (
         <section id="resume">
-            <a className="resume-links" id="open-resume" href="https://docs.google.com/document/d/1h6uCClB465Wmb6NCpRFIqEmKK_jax3MuAEbS4NlPcFs/edit?usp=sharing" rel="noopener noreferrer" target="_blank"><h3>Link to Resume</h3></a><br></br>
+            <a className="resume-links" id="open-resume" href="https://docs.google.com/document/d/1h6uCClB465Wmb6NCpRFIqEmKK_jax3MuAEbS4NlPcFs/edit?usp=sharing" rel="noopener noreferrer" target="_blank"><h3>Resume (Click to Download)</h3></a><br></br>
  <p>
 <strong>SKILLS<br></br><br></br>
 Languages |</strong> JavaScript, HTML, CSS, Python, TypeScript, Go<br></br>
 <strong>Libraries and Frameworks |</strong> React, React Native, Node.js, Express.js, Django, Flask, Angular<br></br>
-<strong>Database |</strong> PostgreSQL, Sequelize, ORM, MongoDB, Mongoose, ODM, ElephantSQL, MongoDBAtlas<br></br>
+<strong>Database |</strong> PostgreSQL, Sequelize, ORM, MongoDB, Mongoose, ODM, ElephantSQL, MongoDBAtlas, Oracle<br></br>
 <strong>Other |</strong> RESTful Routing JSON, MERN stack, MEAN stack, ChatGPT, Canva, Figma, Postman, ThunderClient, Adobe Photoshop, Wordpress<br></br><br></br><br></br>
 
 
