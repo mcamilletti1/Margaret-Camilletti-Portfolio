@@ -344,6 +344,7 @@ button:hover {
 #flex-contact {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 input, textarea {
@@ -396,6 +397,7 @@ form {
 #left-contact {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 @media (min-width: 451px) and (max-width: 907px) {

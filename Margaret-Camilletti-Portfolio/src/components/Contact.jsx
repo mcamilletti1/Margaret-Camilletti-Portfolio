@@ -31,7 +31,6 @@ const Contact = () => {
                         <p>mhcamilletti@gmail.com</p>
                     </section>
                     <section id="contactButtons">
-                        <br></br>
                         <a href="https://linkedin.com/in/margaretcamilletti" rel="noreferrer" target="_blank"><button>LinkedIn</button></a>
                         <br></br>
                         <a href="https://github.com/mcamilletti1" rel="noreferrer" target="_blank"><button>GitHub</button></a>
