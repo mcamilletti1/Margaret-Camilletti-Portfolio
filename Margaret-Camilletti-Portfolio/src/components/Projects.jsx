@@ -14,6 +14,8 @@ const Projects = () => {
                     <ul>
                         <li>Built frontend in Angular and TypeScript</li>
                         <li>Backend API built using MongoDB, Mongoose, Express, and Node JS</li>
+                        <li>Incorporates bcrypt and login authentication for secure login and password hashing</li>
+                        <li>Incorporates Stripe for secure handling of user credit card information</li>
                     </ul>
                     </div>
                 </section>
