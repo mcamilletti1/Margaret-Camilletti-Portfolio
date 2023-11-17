@@ -30,7 +30,7 @@ const Contact = () => {
                         <p>mhcamilletti@gmail.com</p>
                     </section>
                     <section id="contactButtons">
-                        <a href="https://linkedin.com/in/margaretcamilletti" id="contactLinkedIn" rel="noreferrer" target="_blank"><button>LinkedIn</button></a>
+                        <a href="https://linkedin.com/in/margaretcamilletti/" id="contactLinkedIn" rel="noreferrer" target="_blank"><button>LinkedIn</button></a>
                         <a href="https://github.com/mcamilletti1" rel="noreferrer" target="_blank"><button>GitHub</button></a>
                     </section>
                 </section>
