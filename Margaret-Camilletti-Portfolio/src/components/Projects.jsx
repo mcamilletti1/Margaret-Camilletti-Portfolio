@@ -45,7 +45,7 @@ const Projects = () => {
                     </ul>
                     </div>
                 </section>
-                <section id="project4">
+                {/* <section id="project4">
                     <a href="https://art-trivia-game.io/" target="_blank" rel="noopener noreferrer">
                         <img className="project-image" src="src/assets/Screenshot 2023-07-23 at 7.40.55 PM.png" alt="Art Trivia Project Screenshot" /></a>
                     <h4><a href="https://art-trivia-game.io/" className="project-title" target="_blank" rel="noopener noreferrer">Guess the Artist</a></h4>
@@ -58,7 +58,7 @@ const Projects = () => {
                         <li>Created a professionally-styled front-end using HTML and CSS</li>
                     </ul>
                     </div>
-                </section>
+                </section> */}
             </section>
         </section>
     )
