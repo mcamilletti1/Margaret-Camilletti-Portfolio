@@ -33,7 +33,7 @@ const Projects = () => {
                     </ul>
                     </div>
                 </section>
-                 <section id="project4">
+                 <section id="project3">
                     <a href="https://cozy-game-production.up.railway.app/" target="_blank" rel="noopener noreferrer">
                         <img className="project-image" src="src/assets/CatIslandImage.png" alt="Cat Island Game Project Screenshot" /></a>
                     <h4><a href="https://cozy-game-production.up.railway.app/" className="project-title" target="_blank" rel="noopener noreferrer">Cat Island Game</a></h4>
