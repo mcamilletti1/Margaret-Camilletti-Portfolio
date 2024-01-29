@@ -33,18 +33,6 @@ const Projects = () => {
                     </ul>
                     </div>
                 </section>
-                <section id="project3">
-                    <a href="https://walksafenyc.netlify.app/" target="_blank" rel="noopener noreferrer"><img className="project-image" src="src/assets/Screenshot 2023-07-21 at 2.35.15 PM.png" alt="WalkSafe NYC Project Screenshot"/></a>
-                    <h4><a href="https://walksafenyc.netlify.app/" className="project-title" target="_blank" rel="noopener noreferrer">WalkSafe NYC</a></h4>
-                    <div className="project-description">
-                        <p>Full-Stack React Application</p>
-                        <p>HTML, CSS, JavaScript, React, MongoDB, Mongoose  	07/2023</p>
-                    <ul>
-                        <li>Worked on a team of four developers to create a full-stack mobile-optimized application using React that maps and tracks instances of street harassment and catcalling in New York City so you can walk safely through the five boroughs.</li>
-                        <li>Set up and tested backend CRUD using Thunderclient and frontend CRUD for user accounts and reports of harassment, set up React components and routes, created all React forms and set up user authentication, set up persistent login functionality</li>
-                    </ul>
-                    </div>
-                </section>
                  <section id="project4">
                     <a href="https://cozy-game-production.up.railway.app/" target="_blank" rel="noopener noreferrer">
                         <img className="project-image" src="src/assets/CatIslandImage.png" alt="Cat Island Game Project Screenshot" /></a>
