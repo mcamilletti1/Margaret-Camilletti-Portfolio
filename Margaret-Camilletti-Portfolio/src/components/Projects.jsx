@@ -45,20 +45,20 @@ const Projects = () => {
                     </ul>
                     </div>
                 </section>
-                {/* <section id="project4">
-                    <a href="https://art-trivia-game.io/" target="_blank" rel="noopener noreferrer">
-                        <img className="project-image" src="src/assets/Screenshot 2023-07-23 at 7.40.55 PM.png" alt="Art Trivia Project Screenshot" /></a>
-                    <h4><a href="https://art-trivia-game.io/" className="project-title" target="_blank" rel="noopener noreferrer">Guess the Artist</a></h4>
+                 <section id="project4">
+                    <a href="https://cozy-game-production.up.railway.app/" target="_blank" rel="noopener noreferrer">
+                        <img className="project-image" src="src/assets/CatIslandImage.png" alt="Cat Island Game Project Screenshot" /></a>
+                    <h4><a href="https://cozy-game-production.up.railway.app/" className="project-title" target="_blank" rel="noopener noreferrer">Cat Island Game</a></h4>
                     <div className="project-description">
                         <p>Interactive Javascript Game</p>
-                        <p>Node.js, HTML, CSS, JavaScript 	05/2023</p>
+                        <p>HTML, CSS, JavaScript, Tiled 	05/2023</p>
                     <ul>
-                        <li>Utilized the Art Institute of Chicago’s API, Axios, and Vanilla JavaScript to create a trivia game where users have to guess the artist based on the painting.</li>
-                        <li>Created game logic in JavaScript and pulled data from the API using Axios to populate multiple choice questions and information about each painting, included randomizing multiple choice functionality and score counter</li>
-                        <li>Created a professionally-styled front-end using HTML and CSS</li>
+                        <li>Used Vanilla JavaScript to create a fun Pokemon-style game where users can explore Cat Island and engage in battles with other cats</li>
+                        <li>Created game logic in JavaScript and used Tiled software and HTML canvas to create an interactive game map</li>
+                        <li>Used HTML and CSS to style and animate characters and add different battle attacks</li>
                     </ul>
                     </div>
-                </section> */}
+                </section>
             </section>
         </section>
     )
