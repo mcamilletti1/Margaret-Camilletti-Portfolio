@@ -24,7 +24,7 @@ Languages |</strong> JavaScript, HTML, CSS, Python, TypeScript, Go<br></br>
   <li>Played a pivotal role in user testing and feedback collection, iterating on app features and designs to enhance user satisfaction and retention.</li>
 </ul><br></br>
 
-<strong>Backend Developer | Revent Solutions | Remote 11/2023-Present</strong><br></br>
+<strong>Backend Developer | Revent Solutions | Remote 11/2023-01/2024</strong><br></br>
 <ul><li>Collaborated with the backend team at Revent Solutions to develop robust, secure, and scalable web applications using Node.js framework.</li>
 <li>Engineered tailored solutions by analyzing insightful data, integrating Oracle databases to enhance data management and application performance.</li>
 <li>Actively participated in a dynamic team of developers to architect and implement the backend API for WalletWize, a personal finance application, ensuring seamless data integration and user experience.</li>
