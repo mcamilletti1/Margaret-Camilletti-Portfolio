@@ -187,6 +187,12 @@ footer {
   transform: rotate(60deg);
 }
 
+#project-links {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
 
 #about-header, #projects-header, #contact-header {
   color: white;
@@ -304,7 +310,7 @@ header {
 #project-links {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .project-title:hover {
