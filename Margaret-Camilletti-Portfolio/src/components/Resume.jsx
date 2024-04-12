@@ -1,4 +1,4 @@
-import { Tech } from './components';
+import { Tech } from './components/Tech';
 
 const Resume = () => {
     return (
