@@ -203,8 +203,8 @@
 }
 :root {
   font-family: 'Inter', sans-serif;
-  margin-right: 0.5em;
-  margin-left: 0.5em;
+  margin-right: 1.5em;
+  margin-left: 1.5em;
 }
 
 @supports (font-variation-settings: normal) {
@@ -373,6 +373,7 @@ footer {
 #home, #about, #resume, #projects, #contact {
   margin-bottom: 4em;
 }
+
 
 
 .subheading:after {
