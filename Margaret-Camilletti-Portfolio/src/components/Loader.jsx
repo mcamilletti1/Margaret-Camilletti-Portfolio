@@ -11,7 +11,9 @@ const CanvasLoader = () => {
         justifyContent: "center",
         alignItems: "center",
         gridTemplateColumns: "repeat(4, 1fr)",
-        width: "100%"
+        width: "100%",
+        gap: "10px",
+        margin: "auto"
       }}
     >
       <span className='canvas-loader'></span>
