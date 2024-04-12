@@ -337,7 +337,7 @@ footer {
   cursor: pointer;
 }
 
-#resume, #about-paragraph {
+/* #resume,*/ #about-paragraph { 
   background-color: transparent;
   border: solid 2px rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(100px);
