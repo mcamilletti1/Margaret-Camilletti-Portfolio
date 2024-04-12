@@ -1,4 +1,4 @@
-
+import { Tech } from './components';
 
 const Resume = () => {
     return (
@@ -6,6 +6,7 @@ const Resume = () => {
             <a className="resume-links" id="open-resume" href="https://docs.google.com/document/d/1h6uCClB465Wmb6NCpRFIqEmKK_jax3MuAEbS4NlPcFs/edit?usp=sharing" rel="noopener noreferrer" target="_blank"><h3>Resume (Click to Download)</h3></a><br></br>
  <p>
 <strong>SKILLS<br></br><br></br>
+<Tech/>
 Languages |</strong> JavaScript, HTML, CSS, Python, TypeScript, Go<br></br>
 <strong>Libraries and Frameworks |</strong> React, Node.js, Express.js, Django, Flask, Angular, React Native, Bootstrap<br></br>
 <strong>Database |</strong> PostgreSQL, Sequelize, ORM, MongoDB, Mongoose, ODM, ElephantSQL, MongoDBAtlas, MySQL, Oracle<br></br>
