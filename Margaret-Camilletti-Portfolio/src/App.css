@@ -12,6 +12,10 @@
   align-items: center; 
 }
 
+#skills {
+  font-size: 3rem;
+}
+
 .ball-container {
   display: flex;
   justify-content: center;
