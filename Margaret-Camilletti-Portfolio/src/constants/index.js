@@ -10,6 +10,7 @@ import {
     figma,
     docker,
     threejs,
+    python,
   } from "../assets";
 
   
@@ -59,6 +60,10 @@ import {
       name: "docker",
       icon: docker,
     },
+    {
+        name: "python",
+        icon: python,
+    }
   ];
 
   

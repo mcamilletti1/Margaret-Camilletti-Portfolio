@@ -16,6 +16,7 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
 
 export {
   backend,
@@ -35,4 +36,5 @@ export {
   reactjs,
   typescript,
   threejs,
+  python,
 };
