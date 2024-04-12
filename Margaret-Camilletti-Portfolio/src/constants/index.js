@@ -10,7 +10,7 @@ import {
     figma,
     docker,
     threejs,
-  } from "./assets";
+  } from "../assets";
 
   
   
